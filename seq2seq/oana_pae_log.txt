@@ -1,0 +1,191 @@
+("\n\nCouldn't remove 12:11_20:26:24_aux_tasks.csv because ", OSError(2, 'No such file or directory'))
+../dataset/eSNLI/ dev 9842
+../dataset/eSNLI/ test 9824
+../dataset/eSNLI/ dev 9842
+../dataset/eSNLI/ test 9824
+Found 11166(/11357) words with glove vectors
+Vocab size : 11166
+SNLI_DEV
+("\n\nCouldn't remove 12:11_20:26:38_snli_dev.csv because ", OSError(2, 'No such file or directory'))
+Final SNLI example from snli_dev
+Sentence1:   <s> Two women are embracing while holding to go packages . </s>  LENGHT:  12
+Sentence2:   <s> The sisters are hugging goodbye while holding to go packages after just eating lunch . </s>  LENGHT:  17
+Gold label:   neutral
+Explanation 1 :   <s> neutral the to go packages may not be from lunch . </s>
+Predicted label by decoder 1 :   < s >
+Target expl 1 :   neutral the to go packages may not be from lunch . </s> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p>  LENGHT:  12
+Decoded explanation 1 :   neutral the women be to does not be sisters . . </s> </s> . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+
+Explanation 2 :   <s> just because two women are embracing , does not mean they are sisters ; two women that are embracing are not necessarily hugging goodbye . neutral </s>
+Predicted label by decoder 2 :   < s >
+Target expl 2 :   just because two women are embracing , does not mean they are sisters ; two women that are embracing are not necessarily hugging goodbye . neutral </s> <p> <p> <p> <p>  LENGHT:  27
+Decoded explanation 2 :   neutral the the women are holding does does not imply they are eating . they people carrying are holding does not necessarily sisters . . </s> not </s> . does .
+
+
+Explanation 3 :   <s> neutral two women do not have to be sisters ; embracing does not mean hugging goodbye ; the women do not have to have just finished lunch to be embracing . </s>
+Predicted label by decoder 3 :   < s >
+Target expl 3 :   neutral two women do not have to be sisters ; embracing does not mean hugging goodbye ; the women do not have to have just finished lunch to be embracing . </s> <p> <p> <p> <p>  LENGHT:  32
+Decoded explanation 3 :   neutral not women are not have to be sisters ; just is not imply they . . not fact are n't have to be to been lunch . eat eating . </s> </s> . . .
+
+
+Fully decoded explanation:  ['two', 'women', 'are', 'not', 'necessarily', 'sisters']
+Predicted label from decoder:  neutral
+Predicted label from classifier:   neutral 
+
+
+
+Final SNLI example from snli_dev
+Sentence1:   <s> A brown dog is about to catch a treat . </s>  LENGHT:  12
+Sentence2:   <s> A brown dog is given a treat . </s>  LENGHT:  10
+Gold label:   entailment
+Explanation 1 :   <s> entailment a dog that is about to catch a treat is been given a treat . </s>
+Predicted label by decoder 1 :   < s >
+Target expl 1 :   entailment a dog that is about to catch a treat is been given a treat . </s> <p> <p> <p> <p> <p> <p>  LENGHT:  17
+Decoded explanation 1 :   entailment a dog that is to to catch a treat is a a a treat . </s> </s> . . . . .
+
+
+Explanation 2 :   <s> a brown dog is treated well entailment </s>
+Predicted label by decoder 2 :   < s >
+Target expl 2 :   a brown dog is treated well entailment </s> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p>  LENGHT:  8
+Decoded explanation 2 :   entailment dog dog is about to a to , to a to . . . . . . . . . . . . . . .
+
+
+Explanation 3 :   <s> entailment about to catch is to be given a treat </s>
+Predicted label by decoder 3 :   < s >
+Target expl 3 :   entailment about to catch is to be given a treat </s> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p>  LENGHT:  11
+Decoded explanation 3 :   entailment dog to catch a a catch taking to bite . </s> . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+
+Fully decoded explanation:  ['a', 'dog', 'is', 'a', 'dog']
+Predicted label from decoder:  entailment
+Predicted label from classifier:   entailment 
+
+
+
+Final SNLI example from snli_dev
+Sentence1:   <s> A tattooed boxer is punching his opponent in a boxing arena . </s>  LENGHT:  14
+Sentence2:   <s> A boxer without tattooes is getting beat up outdoors . </s>  LENGHT:  12
+Gold label:   contradiction
+Explanation 1 :   <s> contradiction they ca n't be both in a boxing arena and outdoors at once . </s>
+Predicted label by decoder 1 :   < s >
+Target expl 1 :   contradiction they ca n't be both in a boxing arena and outdoors at once . </s> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p>  LENGHT:  16
+Decoded explanation 1 :   neutral a are n't be boxing if the bar arena and not . the . </s> </s> . is . . . . . . . is . . outdoors is
+
+
+Explanation 2 :   <s> one can not be tattooed and not be tattooed at the same time contradiction </s>
+Predicted label by decoder 2 :   < s >
+Target expl 2 :   one can not be tattooed and not be tattooed at the same time contradiction </s> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p>  LENGHT:  15
+Decoded explanation 2 :   contradiction the not be in in boxing getting getting . the same time . getting . . . . . . . outdoors . . . . .
+
+
+Explanation 3 :   <s> contradiction a tattooed boxer can not be without ; some outdoors can not be in a boxing arena at the same time ; a person punching his opponent can not be described as getting beat up . </s>
+Predicted label by decoder 3 :   < s >
+Target expl 3 :   contradiction a tattooed boxer can not be without ; some outdoors can not be in a boxing arena at the same time ; a person punching his opponent can not be described as getting beat up . </s> <p> <p> <p>  LENGHT:  38
+Decoded explanation 3 :   neutral a boxer boxer is not be a an he of is not be done an gym gym . the same time . if boxing can a opponent is not be getting getting getting ready up . </s> </s> . .
+
+
+Fully decoded explanation:  ['the', 'boxer', 'can', 'not', 'be', 'boxing', 'and', 'getting', 'his', 'opponent', 'at', 'the', 'same', 'time']
+Predicted label from decoder:  neutral
+Predicted label from classifier:   contradiction 
+
+
+
+('refs: ', [['the', 'to', 'go', 'packages', 'may', 'not', 'be', 'from', 'lunch', '.'], ['just', 'because', 'two', 'women', 'are', 'embracing', ',', 'does', 'not', 'mean', 'they', 'are', 'sisters', ';', 'two', 'women', 'that', 'are', 'embracing', 'are', 'not', 'necessarily', 'hugging', 'goodbye', '.']])
+('candidates ', [['two', 'women', 'are', 'not', 'necessarily', 'sisters'], ['two', 'women', 'are', 'holding', 'hands'], ['women', 'and', 'men', 'are', 'different'], ['two', 'children', 'are', 'kids']])
+('references ', [[['the', 'to', 'go', 'packages', 'may', 'not', 'be', 'from', 'lunch', '.'], ['just', 'because', 'two', 'women', 'are', 'embracing', ',', 'does', 'not', 'mean', 'they', 'are', 'sisters', ';', 'two', 'women', 'that', 'are', 'embracing', 'are', 'not', 'necessarily', 'hugging', 'goodbye', '.']], [['saying', 'the', 'two', 'women', 'are', 'holding', 'packages', 'is', 'a', 'way', 'to', 'paraphrase', 'that', 'the', 'packages', 'they', 'are', 'holding', 'are', 'to', 'go', 'packages', '.'], ['sentence', '1', 'states', 'that', 'two', 'women', 'are', 'holding', 'to-go', 'packages', ';', 'to-go', 'packages', 'are', 'a', 'form', 'of', 'package', '.']], [['in', 'the', 'first', 'sentence', 'there', 'is', 'an', 'action', 'of', 'affection', 'between', 'women', 'while', 'on', 'the', 'second', 'sentence', 'there', 'is', 'a', 'fight', 'between', 'men', '.'], ['women', 'are', 'different', 'than', 'men', 'and', 'embracing', 'is', 'different', 'than', 'fighting', '.']], [['young', 'children', 'are', 'kids', ';', 'jerseys', 'with', 'number', '9', 'and', '2', 'are', 'numbered', 'jerseys', '.'], ['two', 'young', 'children', 'in', 'jersey', 'washing', 'their', 'hands', 'in', 'sink']]], '\n\n\n')
+('refs: ', [['in', 'both', 'sentences', ',', 'a', 'boy', 'is', 'in', 'a', 'pool', ';', 'the', 'fact', 'that', 'he', 'is', 'smiling', 'shows', 'that', 'he', 'enjoys', 'himself', '.'], ['splashing', 'and', 'smiling', 'means', 'enjoying']])
+('bleu: ', 0.21359994293946882)
+SNLI_DEV SNLI accuracy:  84.38 bleu score:  21.3599942939 ppl:  23.1279647011 eval_acc_label_expl:  84.75
+SNLI_TEST
+("\n\nCouldn't remove 12:11_20:29:46_snli_test.csv because ", OSError(2, 'No such file or directory'))
+Final SNLI example from snli_test
+Sentence1:   <s> This church choir sings to the masses as they sing joyous songs from the book at a church . </s>  LENGHT:  21
+Sentence2:   <s> The church has cracks in the ceiling . </s>  LENGHT:  10
+Gold label:   neutral
+Explanation 1 :   <s> neutral not all churches have cracks in the ceiling </s>
+Predicted label by decoder 1 :   < s >
+Target expl 1 :   neutral not all churches have cracks in the ceiling </s> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p>  LENGHT:  10
+Decoded explanation 1 :   neutral the all choir are fallen to the church . </s> to from . . . . . . . . . . . . . . . . .
+
+
+Explanation 2 :   <s> there is no indication that there are cracks in the ceiling of the church . neutral </s>
+Predicted label by decoder 2 :   < s >
+Target expl 2 :   there is no indication that there are cracks in the ceiling of the church . neutral </s> <p> <p> <p> <p>  LENGHT:  17
+Decoded explanation 2 :   neutral the not is singing the is church . the church . church church . </s> the </s> in . .
+
+
+Explanation 3 :   <s> neutral not all churches have cracks in the ceiling . </s>
+Predicted label by decoder 3 :   < s >
+Target expl 3 :   neutral not all churches have cracks in the ceiling . </s> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p>  LENGHT:  11
+Decoded explanation 3 :   contradiction the all choir are fallen in the church . </s> </s> . . . . . . . . . . . . . . . .
+
+
+Fully decoded explanation:  ['the', 'choir', 'can', 'not', 'be', 'singing', 'in', 'the', 'church', 'if', 'the', 'choir', 'has', 'fallen', 'in', 'the', 'church']
+Predicted label from decoder:  contradiction
+Predicted label from classifier:   contradiction 
+
+
+
+Final SNLI example from snli_test
+Sentence1:   <s> A man in a gray coat is walking on a fallen tree trunk in a forest . </s>  LENGHT:  19
+Sentence2:   <s> A young man wearing a gray winter jacket walks on a fallen oak tree . </s>  LENGHT:  17
+Gold label:   entailment
+Explanation 1 :   <s> entailment the man must be young , his coat must be for winter , and a tree would be in a forest . </s>
+Predicted label by decoder 1 :   < s >
+Target expl 1 :   entailment the man must be young , his coat must be for winter , and a tree would be in a forest . </s> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p>  LENGHT:  24
+Decoded explanation 1 :   neutral the man is be wearing . and is is be in a . and the young covered be blue a forest . </s> </s> . tree . . . . . . . . . . . . . .
+
+
+Explanation 2 :   <s> young man is a type of man , and gray coat is a type of winter jacket . entailment </s>
+Predicted label by decoder 2 :   < s >
+Target expl 2 :   young man is a type of man , and gray coat is a type of winter jacket . entailment </s> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p>  LENGHT:  20
+Decoded explanation 2 :   neutral man walking walking man of a and not the is is not different of tree . . </s> </s> </s> </s> </s> </s> . . . </s> tree </s> </s> . tree
+
+
+Explanation 3 :   <s> entailment a man may be a young man , walking and walks on are same </s>
+Predicted label by decoder 3 :   < s >
+Target expl 3 :   entailment a man may be a young man , walking and walks on are same </s> <p> <p> <p> <p> <p>  LENGHT:  16
+Decoded explanation 3 :   neutral a man in be wearing young man , and on wearing on a wearing . </s> . . . .
+
+
+Fully decoded explanation:  ['not', 'all', 'men', 'are', 'young']
+Predicted label from decoder:  neutral
+Predicted label from classifier:   neutral 
+
+
+
+Final SNLI example from snli_test
+Sentence1:   <s> A smiling girl walking and a frowning girl with a phone . </s>  LENGHT:  14
+Sentence2:   <s> A smiling boy walking and a frowning girl with a phone . </s>  LENGHT:  14
+Gold label:   contradiction
+Explanation 1 :   <s> contradiction a girl is not the same as a boy . </s>
+Predicted label by decoder 1 :   < s >
+Target expl 1 :   contradiction a girl is not the same as a boy . </s> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p>  LENGHT:  12
+Decoded explanation 1 :   contradiction a girl is not a same as a boy . </s> </s> and and and and . </s> . . . . . </s> . . </s> . and . . and . . ) and . . ) .
+
+
+Explanation 2 :   <s> answer ; either there is a boy or a girl walking because both are not the same . contradiction </s>
+Predicted label by decoder 2 :   < s >
+Target expl 2 :   answer ; either there is a boy or a girl walking because both are not the same . contradiction </s> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p>  LENGHT:  20
+Decoded explanation 2 :   contradiction a a a is a girl or a girl . . they the not smiling same thing </s> . </s> and </s> . . . . . and </s> </s> . . . and
+
+
+Explanation 3 :   <s> contradiction it is either a smiling boy or girl . </s>
+Predicted label by decoder 3 :   < s >
+Target expl 3 :   contradiction it is either a smiling boy or girl . </s> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p> <p>  LENGHT:  11
+Decoded explanation 3 :   contradiction a is either a boy girl or a . </s> </s> both and . . . </s> and . . </s> . . . . . . . .
+
+
+Fully decoded explanation:  ['a', 'girl', 'is', 'not', 'a', 'boy']
+Predicted label from decoder:  contradiction
+Predicted label from classifier:   contradiction 
+
+
+
+('refs: ', [['not', 'all', 'churches', 'have', 'cracks', 'in', 'the', 'ceiling'], ['there', 'is', 'no', 'indication', 'that', 'there', 'are', 'cracks', 'in', 'the', 'ceiling', 'of', 'the', 'church', '.']])
+('candidates ', [['the', 'choir', 'can', 'not', 'be', 'singing', 'in', 'the', 'church', 'if', 'the', 'choir', 'has', 'fallen', 'in', 'the', 'church'], ['the', 'choir', 'is', 'singing', 'with', 'a', 'book'], ['the', 'choir', 'can', 'not', 'be', 'singing', 'at', 'a', 'church', 'game', 'and', 'at', 'a', 'baseball', 'game', 'at', 'the', 'same', 'time'], ['not', 'all', 'women', 'are', 'young']])
+('references ', [[['not', 'all', 'churches', 'have', 'cracks', 'in', 'the', 'ceiling'], ['there', 'is', 'no', 'indication', 'that', 'there', 'are', 'cracks', 'in', 'the', 'ceiling', 'of', 'the', 'church', '.']], [['``', 'filled', 'with', 'song', "''", 'is', 'a', 'rephrasing', 'of', 'the', '``', 'choir', 'sings', 'to', 'the', 'masses', '.', "''"], ['hearing', 'song', 'brings', 'joyous', 'in', 'the', 'church', '.']], [['a', 'choir', 'sing', 'some', 'other', 'songs', 'other', 'than', 'book', 'at', 'church', 'during', 'the', 'base', 'play', ';', 'they', 'can', 'not', 'see', 'book', 'and', 'play', 'base', 'ball', 'same', 'time', '.'], ['the', 'choir', 'is', 'at', 'a', 'chruch', 'not', 'a', 'baseball', 'game', '.']], [['the', 'woman', 'could', "'ve", 'been', 'old', 'rather', 'than', 'young'], ['there', 'is', 'no', 'indication', 'that', 'the', 'woman', 'is', 'young', '.']]], '\n\n\n')
+('refs: ', [['the', 'people', 'can', 'examine', 'standing', 'instead', 'of', 'sitting', 'and', 'they', 'can', 'be', 'next', 'to', 'a', 'river', ',', 'ocean', ',', 'not', 'necessarily', 'the', 'beach', '.'], ['we', 'have', 'no', 'idea', 'if', 'they', 'are', 'on', 'a', 'beach', 'to', 'tan', ',', 'they', 'could', 'be', 'there', 'for', 'a', 'number', 'of', 'reasosn', '.']])
+('bleu: ', 0.20702915498176067)
+SNLI_TEST SNLI accuracy:  83.85 bleu score:  20.7029154982 ppl:  23.0202101015 eval_acc_label_expl:  84.23
